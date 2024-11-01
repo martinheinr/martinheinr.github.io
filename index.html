@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of a software engineer showcasing projects, skills, and experience.">
+    <title>Software Engineer Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .section {
+            padding: 2em 0;
+        }
+        #about img {
+            border-radius: 50%;
+            width: 150px;
+            display: block;
+            margin: 0 auto;
+        }
+        .section h2 {
+            text-align: center;
+            margin-bottom: 1em;
+            color: #333;
+        }
+        .project, .experience {
+            display: flex;
+            flex-direction: column;
+            margin: 1em 0;
+        }
+        .project img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .project h3, .experience h3 {
+            color: #333;
+            margin: 10px 0;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .skill {
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid #333;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Martin Heinrich</h1>
+        <p>Software Engineer | Full-Stack Developer</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <img src="your-photo.jpg" alt="John Doe">
+            <p>Hello! I'm Martin, I enjoy making small mobile apps.</p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Project 1: E-commerce Platform</h3>
+                <p>A full-featured e-commerce application with shopping cart, payment integration, and admin management.</p>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Project 2: Social Media Dashboard</h3>
+                <p>A social media dashboard with analytics and post scheduling built with React, Node.js, and MongoDB.</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <div class="skill">Python</div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <h2>Experience</h2>
+            <div class="experience">
+                <h3>Software Test Engineer</h3>
+                <p>Being a tester for various companies for the past 6 years</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>I'd love to hear from you! Feel free to reach out to me on LinkedIn.</p>
+        </section>
+
+    </div>
+
+    
+    <footer>
+        <p>&copy; 2024, this is footer ;) </p>
+    </footer>
+
+</body>
+</html>
